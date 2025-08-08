@@ -120,6 +120,7 @@ def run_segmentation(args: Namespace):
         use_cc=args.use_cc,
         knn_method=args.knn_method,
         verbose=True,
+        save_anndata=False
     )
 
     logger.info("Segmentation completed.")
